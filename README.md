@@ -18,4 +18,4 @@ These are the hardcoded credentials
  >password: password
 
 ## Demo
-![Game UI Demo](demo/demo.gif)
+![Game UI Demo](demo/game_ui.gif)
