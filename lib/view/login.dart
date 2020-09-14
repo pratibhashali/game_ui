@@ -23,9 +23,7 @@ class _LoginState extends State<Login> {
     //for showing loading
     login() async {
       if (_formKey.currentState.validate()) {
-        if (email == "9898989898" ||
-            email == "admin" ||
-            email == "9876543210" && password == "password") {
+        if (email == "admin" && password == "password") {
           final sharedPrefManager = await SharedPreferencesManager.instance;
           sharedPrefManager.setLoginStatus('LoggedIn');
 
