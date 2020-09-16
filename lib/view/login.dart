@@ -23,7 +23,9 @@ class _LoginState extends State<Login> {
     //for showing loading
     login() async {
       if (_formKey.currentState.validate()) {
-        if (email == "admin" && password == "password") {
+        if (email == "9898989898" ||
+            email == "admin" ||
+            email == "9876543210" && password == "password") {
           final sharedPrefManager = await SharedPreferencesManager.instance;
           sharedPrefManager.setLoginStatus('LoggedIn');
 
@@ -198,6 +200,7 @@ class _LoginState extends State<Login> {
                           padding: EdgeInsets.fromLTRB(0, 10, 0, 5),
                           child: TextFormField(
                             textAlign: TextAlign.center,
+                            obscureText: true,
                             keyboardType: TextInputType.emailAddress,
                             decoration: getFormInputDecoration(
                                 AppLocalizations.of(context)

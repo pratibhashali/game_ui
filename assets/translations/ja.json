@@ -12,7 +12,7 @@
   "loading_data_error_message": "データの読み込み中にエラーが発生しました。",
   "tournament_played_text": "トーナメント \n 演奏した",
   "tournament_played_won": "トーナメント \n 勝った",
-  "tournament_wining_percentage": "勝つ \n percentage ",
+  "tournament_wining_percentage": "勝つ \n 割合 ",
   "recommended_for_you_text": "あなたにおすすめ",
   "loading_tournament_error_message": "表示するトーナメントデータがありません。",
   "elo_rating_text": "ELOレーティング",

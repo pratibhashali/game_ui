@@ -10,7 +10,7 @@ class UserImage extends StatelessWidget {
       backgroundColor: Colors.transparent,
       radius: radius,
       backgroundImage:
-          Image.network('https://avatarfiles.alphacoders.com/248/248611.jpg')
+          Image.network('https://avatarfiles.alphacoders.com/146/146818.jpg')
               .image,
     );
   }
